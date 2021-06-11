@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".open_journal">
+
+    <Button
+        android:id="@+id/open_journal_b1"
+        android:layout_width="201dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="64dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="List"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/open_journal_b2"
+        android:layout_width="201dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="36dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Open"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/open_journal_et2" />
+
+    <EditText
+        android:id="@+id/open_journal_et1"
+        android:layout_width="318dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter here"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.591"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/open_journal_tv1" />
+
+    <TextView
+        android:id="@+id/open_journal_tv1"
+        android:layout_width="153dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="44dp"
+        android:text="Journal id:"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/open_journal_b1" />
+
+    <TextView
+        android:id="@+id/open_journal_tv2"
+        android:layout_width="153dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="40dp"
+        android:text="Password:"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/open_journal_et1" />
+
+    <EditText
+        android:id="@+id/open_journal_et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/open_journal_tv2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

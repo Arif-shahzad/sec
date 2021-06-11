@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="100px"
+        tools:context=".entry_display">
+
+        <TextView
+            android:id="@+id/entry_diaplay_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Entry id:"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.076"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/entry_display_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.078"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/entry_diaplay_tv1" />
+
+        <TextView
+            android:id="@+id/entry_display_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Journal id:"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.073"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/entry_display_tv2" />
+
+        <TextView
+            android:id="@+id/entry_display_tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/entry_display_tv3" />
+
+        <TextView
+            android:id="@+id/entry_display_tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Topic:"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/entry_display_tv4" />
+
+        <TextView
+            android:id="@+id/entry_display_tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/entry_display_tv5" />
+
+        <TextView
+            android:id="@+id/entry_display_tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text:"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/entry_display_tv6" />
+
+        <TextView
+            android:id="@+id/entry_display_tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/entry_display_tv7" />
+
+        <TextView
+            android:id="@+id/entry_display_tv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image path:"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/entry_display_tv8" />
+
+        <TextView
+            android:id="@+id/entry_display_tv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/entry_display_tv9" />
+
+        <TextView
+            android:id="@+id/entry_display_tv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/entry_display_tv10" />
+
+        <TextView
+            android:id="@+id/entry_display_tv12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/entry_display_tv11" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

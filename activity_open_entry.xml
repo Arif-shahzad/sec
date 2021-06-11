@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".open_entry">
+
+    <Button
+        android:id="@+id/open_entry_b1"
+        android:layout_width="201dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="64dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="List"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/open_entry_tv1"
+        android:layout_width="153dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="52dp"
+        android:text="Entry id:"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/open_entry_b1" />
+
+    <EditText
+        android:id="@+id/open_entry_et1"
+        android:layout_width="318dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter here"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/open_entry_tv1" />
+
+    <Button
+        android:id="@+id/open_entry_b2"
+        android:layout_width="201dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="76dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Open"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/open_entry_et1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
